@@ -1,0 +1,298 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Scheque/v16/Server/sqlite3
+/.vs/Scheque/v16
+/.vs/Scheque
+/Backup/17-05-2020/Scheques
+/WebCheques/obj/Debug
+/SchequesWin/obj/Debug
+/Scheque/obj/Debug
+/packages
+/NUnitTestScheques/obj
+/FormModql/obj/Debug
+*.suo
+*.user
+*.sln.docstates
+*.userosscache
+*.bak
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+# build folder is nowadays used for build scripts and should not be ignored
+#build/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.scc
+
+# OS generated files #
+.DS_Store*
+Icon?
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.Publish.xml
+
+# Windows Azure Build Output
+csx
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+
+# Others
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.[Pp]ublish.xml
+*.pfx
+*.publishsettings
+modulesbin/
+tempbin/
+
+# EPiServer Site file (VPP)
+AppData/
+
+# RIA/Silverlight projects
+Generated_Code/
+
+# Backup & report files from converting an old project file to a newer
+# Visual Studio version. Backup files are not needed, because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# vim
+*.txt~
+*.swp
+*.swo
+
+# Temp files when opening LibreOffice on ubuntu
+.~lock.*
+ 
+# svn
+.svn
+
+# CVS - Source Control
+**/CVS/
+
+# Remainings from resolving conflicts in Source Control
+*.orig
+
+# SQL Server files
+**/App_Data/*.mdf
+**/App_Data/*.ldf
+**/App_Data/*.sdf
+
+
+#LightSwitch generated files
+GeneratedArtifacts/
+_Pvt_Extensions/
+ModelManifest.xml
+
+# =========================
+# Windows detritus
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac desktop service store files
+.DS_Store
+
+# SASS Compiler cache
+.sass-cache
+
+# Visual Studio 2014 CTP
+**/*.sln.ide
+
+# Visual Studio temp something
+.vs/
+
+# dotnet stuff
+project.lock.json
+
+# VS 2015+
+*.vc.vc.opendb
+*.vc.db
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Output folder used by Webpack or other FE stuff
+**/node_modules/*
+**/wwwroot/*
+
+# SpecFlow specific
+*.feature.cs
+*.feature.xlsx.*
+*.Specs_*.html
+
+#####
+# End of core ignore list, below put you custom 'per project' settings (patterns or path)
+#####
+/Scheque/EntityFramework.6.2.0
+/Scheque/Microsoft.Net.Compilers.3.3.1
+/Scheque/MySql.Data.6.9.12
+/Scheque/MySql.Data.Entity.6.9.5
+/Scheque/Newtonsoft.Json.6.0.4
+/Scheque/System.ValueTuple.4.5.0
+/WebCheques/Antlr.3.4.1.9004
+/WebCheques/bootstrap.3.0.0
+/WebCheques/Bundler.1.1.31
+/WebCheques/dotless.1.4.0.0
+/WebCheques/dotless.AspNetHandler.1.6.4
+/WebCheques/dotless.Core.1.6.4
+/WebCheques/EntityFramework.6.2.0
+/WebCheques/Microsoft.ApplicationInsights.2.12.0
+/WebCheques/Microsoft.ApplicationInsights.Agent.Intercept.2.4.0
+/WebCheques/Microsoft.ApplicationInsights.DependencyCollector.2.12.0
+/WebCheques/Microsoft.ApplicationInsights.JavaScript.0.22.9-build00167
+/WebCheques/Microsoft.ApplicationInsights.PerfCounterCollector.2.12.0
+/WebCheques/jQuery.1.10.2
+/WebCheques/Microsoft.ApplicationInsights.Web.2.12.0
+/WebCheques/jQuery.Validation.1.8.0.1
+/WebCheques/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.12.0
+/WebCheques/Microsoft.ApplicationInsights.WindowsServer.2.12.0
+/WebCheques/Microsoft.AspNet.Razor.3.2.7
+/WebCheques/Microsoft.AspNet.Mvc.5.2.3
+/WebCheques/Microsoft.AspNet.TelemetryCorrelation.1.0.7
+/WebCheques/Microsoft.AspNet.Web.Optimization.1.1.2
+/WebCheques/Microsoft.AspNet.WebApi.5.2.7
+/WebCheques/Microsoft.AspNet.WebApi.Client.5.2.7
+/WebCheques/Microsoft.AspNet.WebApi.Core.5.2.7
+/WebCheques/Microsoft.AspNet.WebApi.Client.pt-br.5.2.7
+/WebCheques/Microsoft.Net.Http.2.2.29
+/WebCheques/Microsoft.Net.Compilers.1.0.0
+/WebCheques/Microsoft.jQuery.Unobtrusive.Validation.3.2.11
+/WebCheques/Microsoft.Extensions.DependencyInjection.Abstractions.2.0.0
+/WebCheques/Microsoft.Extensions.DependencyInjection.2.0.0
+/WebCheques/Microsoft.CodeQuality.Analyzers.3.3.2
+/WebCheques/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0
+/WebCheques/Microsoft.CodeAnalysis.VersionCheckAnalyzer.3.3.2
+/WebCheques/Microsoft.CodeAnalysis.FxCopAnalyzers.3.3.2
+/WebCheques/Microsoft.Bcl.Build.1.0.14
+/WebCheques/Microsoft.Bcl.1.1.10
+/WebCheques/Microsoft.AspNet.WebPages.3.2.3
+/WebCheques/Microsoft.AspNet.WebApi.WebHost.pt-br.5.2.7
+/WebCheques/Microsoft.AspNet.WebApi.WebHost.5.2.7
+/WebCheques/Microsoft.AspNet.WebApi.Core.pt-br.5.2.7
+/WebCheques/Owin.1.0
+/WebCheques/Newtonsoft.Json.6.0.4
+/WebCheques/MySql.Data.Entity.6.9.5
+/WebCheques/MySql.Data.6.9.12
+/WebCheques/Modernizr.2.6.2
+/WebCheques/Microsoft.Web.Infrastructure.1.0.0.0
+/WebCheques/Microsoft.Owin.Security.Cookies.4.0.1
+/WebCheques/Microsoft.Owin.Security.4.0.1
+/WebCheques/Microsoft.Owin.Host.SystemWeb.4.2.0
+/WebCheques/Microsoft.Owin.4.2.0
+/WebCheques/Microsoft.NetFramework.Analyzers.3.3.2
+/WebCheques/Microsoft.NetCore.Analyzers.3.3.2
+/WebCheques/System.ValueTuple.4.5.0
+/WebCheques/System.Runtime.CompilerServices.Unsafe.4.5.2
+/WebCheques/System.Memory.4.5.3
+/WebCheques/System.Diagnostics.DiagnosticSource.4.6.0
+/WebCheques/System.Buffers.4.4.0
+/WebCheques/SimpleInjector.Integration.WebApi.4.6.0
+/WebCheques/SimpleInjector.Integration.Web.Mvc.4.6.0
+/WebCheques/SimpleInjector.Integration.Web.4.6.0
+/WebCheques/SimpleInjector.4.6.0

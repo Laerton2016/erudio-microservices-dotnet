@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Calculator/Calculator.csproj" Id="d6621e93-0280-4ca8-a90b-26c19830c104" />
+  <Project Path="RestWithASPNET/RestWithASPNET.csproj" />
+</Solution>

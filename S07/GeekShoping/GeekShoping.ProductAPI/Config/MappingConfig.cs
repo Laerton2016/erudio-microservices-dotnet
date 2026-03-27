@@ -13,8 +13,7 @@ namespace GeekShoping.ProductAPI.Config
             {
                 c.CreateMap<ProductVO, Product>();
                 c.CreateMap<Product, ProductVO>();
-            }, 
-            new LoggerFactory() );
+            });
             return mappingConfig;
         }
     }

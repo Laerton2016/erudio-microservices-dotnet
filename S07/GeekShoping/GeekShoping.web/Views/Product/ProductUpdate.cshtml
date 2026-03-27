@@ -1,0 +1,66 @@
+﻿@model GeekShoping.web.Models.ProductModel
+
+<form asp-action="ProductUpdate" method="post">
+    <br />
+    <div class="container border p-3">
+        <input hidden asp-for="Id" />
+        <h1 class="text-primary">Update product</h1>
+        <hr />
+        <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger" />
+            <div class="col-2">
+                <label asp-for="Name" class="control-label pt-2" style="font-size20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="col-2">
+                <label asp-for="Description" class="control-label pt-2" style="font-size20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="CategoryName" class="control-label pt-2" style="font-size20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="CategoryName" class="form-control" />
+                <span asp-validation-for="CategoryName" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="Price" class="control-label pt-2" style="font-size20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="ImageURL" class="control-label pt-2" style="font-size20px;"></label>
+            </div>
+            <div class="col-10">
+                <input asp-for="ImageURL" class="form-control" />
+                <span asp-validation-for="ImageURL" class="text-danger"></span>
+            </div>
+            <div class="col-5 offset-2">
+                <a asp-action="ProductIndex" class="btn btn-primary form-control">
+                    <i class="fas fa-arrow-left"></i>Back to list
+                </a>
+
+            </div>
+            <div class="col-5">
+                <input type="submit" value="Update" class="btn btn-success form-control" />
+            </div>
+        </div>
+
+
+
+    </div>
+
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
